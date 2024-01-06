@@ -1,0 +1,89 @@
+body {
+    font-size: 16px;
+}
+
+hr {
+    margin: 24px;
+}
+
+/* px example */
+.px-example {
+    width: 200px;
+    height: 100px;
+    font-size: 16px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid green;
+}
+
+/* em example */
+.em-example p {
+    font-size: 1.5em; /* 1.5 times the font size of the parent element (body) */
+}
+
+/* rem example */
+html {
+    font-size: 16px; /* Set the base font size for the document */
+}
+
+.rem-example body {
+    font-size: 1rem; /* This is equal to 16px (1 * 16px) */
+}
+
+.rem-example h1 {
+    font-size: 2rem; /* This is equal to 32px (2 * 16px) */
+}
+
+.rem-example p {
+    margin: 4rem;
+    font-size: 0.875rem; /* This is equal to 14px (0.875 * 16px) */
+    font-weight: 900;
+    color: orange;
+}
+
+/* percent example */
+.percent-example .child {
+    width: 50%;
+    height: 75%;
+}
+
+.percent-example .positioned {
+    position: absolute;
+    top: 24%;
+    left: 30%;
+}
+
+/* vw-vh example */
+.vw-vh-example .element {
+    margin: 10px;
+}
+
+.vw-vh-example .element-height {
+    height: 50vh;
+}
+
+.vw-vh-example .element-width {
+    width: 75vw;
+}
+
+/* deg example */
+.deg-example .rotate-45 {
+    transform: rotate(45deg);
+}
+
+.deg-example .rotate-180 {
+    transform: rotate(180deg);
+}
+
+/* other units example */
+.other-units-example .cm-example {
+    width: 5cm;
+}
+
+.other-units-example .mm-example {
+    border: 2mm solid black;
+}
+
+.other-units-example .in-example {
+    height: 3in;
+}
