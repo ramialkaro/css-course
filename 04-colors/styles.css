@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0;
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+}
+
+/* 1 - way */
+#keyword {
+    background-color: blue;
+    color: white;
+}
+
+/* 2 - way */
+#hex {
+    background-color: #9840ff;
+}
+
+/* 3 - way */
+#rgb {
+    background-color: rgb(0, 255, 94);
+    border: dotted;
+}
+
+/* 4 - way  */
+#rgba {
+    color: rgba(255, 0, 0, 0.6);
+}
+
+/* 5 -way */
+/* 0 - 360 */
+/* 0  -red */
+/* 120 - green */
+/* 240  - blue */
+#hsl {
+    color: hsl(10, 100%, 50%);
+}
+
+/* 6 - way */
+#hsla {
+    border-radius: 50%;
+    border-color: hsla(150, 50%, 40%, 1);
+}
