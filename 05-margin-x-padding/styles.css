@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.styled-box {
+    background-color: red;
+    /* padding: all; padding: y x; padding: top right bottom left; */
+    padding: 5px 15px 1px 9px;
+}
+
+
+.container {
+    background-color: green;
+}
+
+.content {
+    background-color: orange;
+    margin: 4px 15px;
+    padding: 2px;
+}
